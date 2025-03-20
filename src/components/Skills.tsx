@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { Code, Database, Server, Globe } from "lucide-react";
+import { Code, Database, Server, Globe, PenTool, Terminal } from "lucide-react";
 
 const skillCategories = [
   {
@@ -13,6 +13,7 @@ const skillCategories = [
       { name: "Bootstrap", level: 85 },
       { name: "JavaScript", level: 88 },
       { name: "React.js", level: 85 },
+      { name: "TypeScript", level: 82 },
     ]
   },
   {
@@ -21,7 +22,10 @@ const skillCategories = [
     skills: [
       { name: "Node.js", level: 80 },
       { name: "Express.js", level: 78 },
+      { name: "Fastify.js", level: 75 },
       { name: "RESTful APIs", level: 85 },
+      { name: "Python", level: 70 },
+      { name: "Core Java", level: 65 },
     ]
   },
   {
@@ -38,8 +42,18 @@ const skillCategories = [
     icon: <Code size={24} />,
     skills: [
       { name: "Git/GitHub", level: 82 },
+      { name: "AWS", level: 75 },
       { name: "Problem Solving", level: 88 },
       { name: "System Design", level: 75 },
+    ]
+  },
+  {
+    title: "Tools",
+    icon: <Terminal size={24} />,
+    skills: [
+      { name: "VS Code", level: 90 },
+      { name: "Figma", level: 75 },
+      { name: "Command Line", level: 85 },
     ]
   }
 ];
@@ -54,7 +68,7 @@ const SkillCategory: React.FC<{
   return (
     <motion.div 
       ref={categoryRef}
-      className="glass-card p-6 rounded-lg"
+      className="glass-card p-6 rounded-xl"
       initial={{ opacity: 0, y: 20 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.5, delay: index * 0.1 }}
@@ -80,7 +94,7 @@ const SkillCategory: React.FC<{
             </div>
             <div className="skill-bar">
               <motion.div 
-                className="skill-progress"
+                className="skill-progress bg-gradient-to-r from-primary/80 to-primary"
                 initial={{ width: 0 }}
                 animate={isInView ? { width: `${skill.level}%` } : {}}
                 transition={{ duration: 1, delay: 0.4 + (skillIndex * 0.1) }}
@@ -106,8 +120,9 @@ const Skills: React.FC = () => {
         Technical Skills
       </motion.h2>
       
-      <p className="text-muted-foreground mb-8 max-w-2xl">
-        I've developed expertise in various technologies focused on web development. Here's a breakdown of my technical proficiency:
+      <p className="text-muted-foreground mb-8 max-w-2xl mx-auto text-center">
+        I've developed expertise in various technologies focused on web development and cloud services. 
+        Here's a breakdown of my technical proficiency:
       </p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

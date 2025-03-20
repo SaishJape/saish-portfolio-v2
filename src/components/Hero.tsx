@@ -59,14 +59,23 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          A passionate developer from Shirdi with expertise in full-stack web development and a BCA degree from Mysore University.
+          A passionate Full Stack Developer from Shirdi with expertise in web development, AWS, TypeScript, React, Node.js, and Python. BCA graduate from Mysore University with professional experience working with US clients.
+        </motion.p>
+        
+        <motion.p
+          className="text-md md:text-lg text-primary-foreground bg-primary/10 p-4 rounded-lg mb-6 italic max-w-lg mx-auto md:mx-0"
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+        >
+          "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle." — Steve Jobs
         </motion.p>
         
         <motion.div 
           className="flex flex-wrap gap-4 justify-center md:justify-start"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5, duration: 0.5 }}
+          transition={{ delay: 0.6, duration: 0.5 }}
         >
           <Link to="/resume" className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg font-medium transition-colors duration-300 flex items-center gap-2">
             View Resume <ArrowRight size={16} />
@@ -96,7 +105,7 @@ const Hero: React.FC = () => {
         
         <div className="absolute -bottom-4 -right-4 glass-card p-4 rounded-lg max-w-[80%]">
           <p className="font-medium">Full Stack Developer</p>
-          <p className="text-sm text-muted-foreground">HTML, CSS, React, Node.js</p>
+          <p className="text-sm text-muted-foreground">React, Node.js, AWS, TypeScript</p>
         </div>
       </motion.div>
     </section>
