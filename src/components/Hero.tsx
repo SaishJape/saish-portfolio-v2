@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Hero: React.FC = () => {
@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
         </motion.span>
         
         <motion.h1 
-          className="text-4xl md:text-5xl lg:text-6xl font-bold font-display mb-4"
+          className="text-4xl md:text-5xl lg:text-6xl font-bold font-display mb-4 gradient-text"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.5 }}
@@ -59,17 +59,40 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          A passionate Full Stack Developer from Shirdi with expertise in web development, AWS, TypeScript, React, Node.js, and Python. BCA graduate from Mysore University with professional experience working with US clients.
+          A passionate Full Stack Developer from Shirdi with expertise in web development, AWS, TypeScript, React, Node.js, Fastify.js, and Python. BCA graduate from Mysore University with professional experience working with US clients.
         </motion.p>
         
-        <motion.p
-          className="text-md md:text-lg text-primary-foreground bg-primary/10 p-4 rounded-lg mb-6 italic max-w-lg mx-auto md:mx-0"
+        <motion.div 
+          className="flex gap-4 justify-center md:justify-start mb-6"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.5 }}
         >
-          "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle." — Steve Jobs
-        </motion.p>
+          <a 
+            href="https://github.com/SaishJape" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-primary/10 p-2 rounded-full hover:bg-primary/20 transition-colors duration-300 hover:scale-110 transform"
+          >
+            <Github size={24} className="text-primary" />
+          </a>
+          <a 
+            href="https://www.linkedin.com/in/saish-jape" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-primary/10 p-2 rounded-full hover:bg-primary/20 transition-colors duration-300 hover:scale-110 transform"
+          >
+            <Linkedin size={24} className="text-primary" />
+          </a>
+          <a 
+            href="mailto:saishjape04@gmail.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-primary/10 p-2 rounded-full hover:bg-primary/20 transition-colors duration-300 hover:scale-110 transform"
+          >
+            <Mail size={24} className="text-primary" />
+          </a>
+        </motion.div>
         
         <motion.div 
           className="flex flex-wrap gap-4 justify-center md:justify-start"
@@ -77,10 +100,10 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.5 }}
         >
-          <Link to="/resume" className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg font-medium transition-colors duration-300 flex items-center gap-2">
+          <Link to="/resume" className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg font-medium transition-colors duration-300 flex items-center gap-2 hover:shadow-lg">
             View Resume <ArrowRight size={16} />
           </Link>
-          <Link to="/contact" className="border border-primary/20 hover:border-primary/50 text-foreground hover:text-primary px-6 py-3 rounded-lg font-medium transition-colors duration-300">
+          <Link to="/contact" className="border border-primary/20 hover:border-primary/50 text-foreground hover:text-primary px-6 py-3 rounded-lg font-medium transition-colors duration-300 hover:shadow-lg">
             Contact Me
           </Link>
         </motion.div>
@@ -94,7 +117,7 @@ const Hero: React.FC = () => {
         transition={{ duration: 0.5, delay: 0.2 }}
         style={{ transformStyle: 'preserve-3d', transition: 'transform 0.1s ease' }}
       >
-        <div className="relative w-full aspect-square rounded-xl overflow-hidden shadow-2xl border-4 border-white">
+        <div className="relative w-full aspect-square rounded-xl overflow-hidden shadow-2xl gradient-border">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent mix-blend-overlay"/>
           <img 
             src="/placeholder.svg" 
@@ -103,9 +126,9 @@ const Hero: React.FC = () => {
           />
         </div>
         
-        <div className="absolute -bottom-4 -right-4 glass-card p-4 rounded-lg max-w-[80%]">
+        <div className="absolute -bottom-4 -right-4 glass-card p-4 rounded-lg max-w-[80%] animated-border-box">
           <p className="font-medium">Full Stack Developer</p>
-          <p className="text-sm text-muted-foreground">React, Node.js, AWS, TypeScript</p>
+          <p className="text-sm text-muted-foreground">React, Node.js, AWS, FastifyJS</p>
         </div>
       </motion.div>
     </section>
