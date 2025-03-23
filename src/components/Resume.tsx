@@ -44,7 +44,7 @@ const Resume: React.FC = () => {
             >
               <div className="rounded-lg overflow-hidden border-4 border-primary/20 shadow-lg mb-4">
                 <img 
-                  src="/placeholder.svg" 
+                  src="./herophoto.jpg" 
                   alt="Saish Jape" 
                   className="w-full h-auto"
                 />

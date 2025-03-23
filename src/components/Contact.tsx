@@ -39,14 +39,14 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="text-primary" size={24} />,
       title: "Email",
-      details: "saishjape@example.com",
-      link: "mailto:saishjape@example.com"
+      details: "saishjape04@example.com",
+      link: "mailto:saishjape04@example.com"
     },
     {
       icon: <Phone className="text-primary" size={24} />,
       title: "Phone",
-      details: "+91 123 456 7890",
-      link: "tel:+911234567890"
+      details: "+91 8208507318",
+      link: "tel:+918208507318"
     },
     {
       icon: <MapPin className="text-primary" size={24} />,

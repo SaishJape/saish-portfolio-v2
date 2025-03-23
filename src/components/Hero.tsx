@@ -120,7 +120,7 @@ const Hero: React.FC = () => {
         <div className="relative w-full aspect-square rounded-xl overflow-hidden shadow-2xl gradient-border">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent mix-blend-overlay"/>
           <img 
-            src="/placeholder.svg" 
+            src="./herophoto.jpg" 
             alt="Saish Jape" 
             className="w-full h-full object-cover"
           />
@@ -128,7 +128,7 @@ const Hero: React.FC = () => {
         
         <div className="absolute -bottom-4 -right-4 glass-card p-4 rounded-lg max-w-[80%] animated-border-box">
           <p className="font-medium">Full Stack Developer</p>
-          <p className="text-sm text-muted-foreground">React, Node.js, AWS, FastifyJS</p>
+          <p className="text-sm text-foreground">React, Node.js, AWS, FastifyJS</p>
         </div>
       </motion.div>
     </section>

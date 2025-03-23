@@ -28,7 +28,7 @@ const About = () => {
             >
               <div className="rounded-lg overflow-hidden shadow-lg border-4 border-white">
                 <img 
-                  src="/placeholder.svg" 
+                  src="./herophoto.jpg" 
                   alt="Saish Jape" 
                   className="w-full h-auto"
                 />
