@@ -79,11 +79,11 @@ const Resume: React.FC = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <h4 className="font-medium text-primary mb-1">Email:</h4>
-                  <p>saish.jape@example.com</p>
+                  <p>saishjape05@gmail.com.com</p>
                 </div>
                 <div>
                   <h4 className="font-medium text-primary mb-1">Phone:</h4>
-                  <p>+91 9876543210</p>
+                  <p>+91 8208507318</p>
                 </div>
               </div>
             </motion.div>
