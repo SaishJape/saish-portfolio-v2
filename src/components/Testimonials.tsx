@@ -5,23 +5,23 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "John Doe",
-    position: "CEO, TechCorp",
+    name: "Rao Ghuge",
+    position: "CEO, The Baap Company",
     quote: "Saish delivered exceptional work on our web application. His technical skills and attention to detail are impressive. Would highly recommend!",
     rating: 5
   },
-  {
-    name: "Jane Smith",
-    position: "Founder, StartupX",
-    quote: "Working with Saish was a pleasure. He understood our requirements perfectly and delivered a high-quality solution on time. His communication skills are excellent.",
-    rating: 5
-  },
-  {
-    name: "Robert Johnson",
-    position: "CTO, DataFlow",
-    quote: "Saish's expertise in full stack development helped us build a robust and scalable application. His problem-solving skills and technical knowledge are outstanding.",
-    rating: 4
-  }
+  // {
+  //   name: "Neha Padwal",
+  //   position: "Co-founder, The Baap Company",
+  //   quote: "Working with Saish was a pleasure. He understood our requirements perfectly and delivered a high-quality solution on time. His communication skills are excellent.",
+  //   rating: 5
+  // },
+  // {
+  //   name: "Anjali Patel",
+  //   position: "HOD of AI, The Baap Company",
+  //   quote: "Saish's expertise in full stack development helped us build a robust and scalable application. His problem-solving skills and technical knowledge are outstanding.",
+  //   rating: 4
+  // }
 ];
 
 const Testimonials: React.FC = () => {
