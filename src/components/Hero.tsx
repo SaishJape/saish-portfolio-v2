@@ -59,7 +59,9 @@ const Hero: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          A passionate Full Stack Developer from Shirdi with expertise in web development, AWS, TypeScript, React, Node.js, Fastify.js, and Python. BCA graduate from Mysore University with professional experience working with US clients.
+        A passionate Full Stack Developer from Shirdi, with a strong focus on backend development and
+        AI integration. Currently pursuing a BCA degree from Mysore University and interning at BAAP Company, 
+        where I’m gaining real-world experience by building scalable and production-ready applications.
         </motion.p>
         
         <motion.div 

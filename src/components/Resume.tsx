@@ -336,146 +336,146 @@ const Resume: React.FC = () => {
           }
         }
       </style>
-    </head>
-    <body>
-      <div class="header">
-        <div class="header-image">
-          ${imageDataUrl ? `<img src="${imageDataUrl}" alt="Saish Jape" />` : '<div class="placeholder">Profile Photo</div>'}
-        </div>
-        <div class="header-content">
-          <h1>Saish Jape</h1>
-          <div class="title">Full Stack Developer</div>
-          <div class="contact-info">
-            <span>📧 saishjape05@gmail.com</span>
-            <span>📞 +91 8208507318</span>
-            <span>📍 Shirdi, Maharashtra</span>
+      <body>
+        <div class="header">
+          <div class="header-image">
+            ${imageDataUrl ? `<img src="${imageDataUrl}" alt="Saish Jape" />` : '<div class="placeholder">Profile Photo</div>'}
           </div>
-        </div>
-      </div>
-      
-      <div class="section">
-        <div class="summary">
-          <strong>Professional Summary:</strong><br>
-          Passionate and detail-oriented Full Stack Developer with expertise in building modern web applications. 
-          Experienced in working with US clients and developing scalable solutions. Strong problem-solving skills 
-          and a quick learner who thrives in collaborative environments.
-        </div>
-      </div>
-      
-      <div class="section">
-        <h2 class="section-title">💼 Experience</h2>
-        
-        <div class="experience-item">
-          <h3>Full Stack Developer</h3>
-          <div class="company">Freelance - US Clients</div>
-          <div class="duration">2022 - Present</div>
-          <p>Developed and maintained websites for US-based clients using modern technologies like React, Node.js, and AWS.</p>
-          <ul>
-            <li>Built responsive web applications with React, TypeScript and modern CSS frameworks</li>
-            <li>Implemented backend solutions using Node.js, Fastify, and RESTful APIs</li>
-            <li>Deployed and maintained applications on AWS cloud infrastructure</li>
-            <li>Collaborated with cross-functional teams in different time zones</li>
-          </ul>
-        </div>
-        
-        <div class="experience-item">
-          <h3>Web Development Intern</h3>
-          <div class="company">The Baap Company</div>
-          <div class="duration">2021 - 2022</div>
-          <p>Completed an internship focused on full-stack web development and client projects.</p>
-          <ul>
-            <li>Assisted in developing user interfaces using HTML, CSS, and JavaScript</li>
-            <li>Worked on database design and implementation using SQL and MongoDB</li>
-            <li>Contributed to team projects and learned industry best practices</li>
-            <li>Gained experience in version control and collaborative development</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="section">
-        <h2 class="section-title">🎓 Education</h2>
-        
-        <div class="education-item">
-          <h3>Bachelor of Computer Applications (BCA)</h3>
-          <div class="institution">Mysore University, Mysore</div>
-          <div class="duration">2018 - 2021</div>
-          <p>Focused on computer science fundamentals, programming languages, web technologies, and database management. Graduated with distinction.</p>
-        </div>
-        
-        <div class="education-item">
-          <h3>Advanced Web Development Certification</h3>
-          <div class="institution">Online Learning Platform</div>
-          <div class="duration">2021</div>
-          <p>Completed comprehensive training in modern web development technologies and best practices.</p>
-        </div>
-      </div>
-      
-      <div class="section">
-        <h2 class="section-title">🛠️ Technical Skills</h2>
-        <div class="skills-grid">
-          <div class="skill-category">
-            <h4>Frontend</h4>
-            <p>HTML, CSS, Bootstrap, React.js, TypeScript</p>
-          </div>
-          <div class="skill-category">
-            <h4>Backend</h4>
-            <p>Node.js, Express.js, Fastify.js, Python, Core Java</p>
-          </div>
-          <div class="skill-category">
-            <h4>Database</h4>
-            <p>MySQL, SQL, MongoDB</p>
-          </div>
-          <div class="skill-category">
-            <h4>Cloud & DevOps</h4>
-            <p>AWS, Git, GitHub, Deployment</p>
-          </div>
-          <div class="skill-category">
-            <h4>Tools</h4>
-            <p>VS Code, Figma, Command Line</p>
-          </div>
-          <div class="skill-category">
-            <h4>Soft Skills</h4>
-            <p>Problem Solving, Team Collaboration, Time Management</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="section">
-        <h2 class="section-title">🌐 Languages</h2>
-        <div class="languages">
-          <div class="language">
-            <h4>English</h4>
-            <div class="language-bars">
-              <div class="language-bar filled"></div>
-              <div class="language-bar filled"></div>
-              <div class="language-bar filled"></div>
-              <div class="language-bar filled"></div>
-              <div class="language-bar"></div>
-            </div>
-          </div>
-          <div class="language">
-            <h4>Hindi</h4>
-            <div class="language-bars">
-              <div class="language-bar filled"></div>
-              <div class="language-bar filled"></div>
-              <div class="language-bar filled"></div>
-              <div class="language-bar filled"></div>
-              <div class="language-bar filled"></div>
-            </div>
-          </div>
-          <div class="language">
-            <h4>Marathi</h4>
-            <div class="language-bars">
-              <div class="language-bar filled"></div>
-              <div class="language-bar filled"></div>
-              <div class="language-bar filled"></div>
-              <div class="language-bar filled"></div>
-              <div class="language-bar filled"></div>
+          <div class="header-content">
+            <h1>Saish Jape</h1>
+            <div class="title">Full Stack AI Developer</div>
+            <div class="contact-info">
+              <span>📧 saishjape04@gmail.com</span>
+              <span>📞 +91 8208507318</span>
+              <span>📍 Shirdi, Maharashtra</span>
+              <span>🌐 <a href="https://saishjape.netlify.app" target="_blank">saishjape.netlify.app</a></span>
             </div>
           </div>
         </div>
-      </div>
-    </body>
+
+        <div class="section">
+          <div class="summary">
+            <strong>Professional Summary:</strong><br>
+            Full Stack AI Developer with 3+ years of experience building intelligent web applications using FastAPI, React, and cloud platforms. 
+            Specialized in integrating LLMs like Gemini with Qdrant vector DB, semantic search, PDF ingestion, and chatbot systems.
+            Built end-to-end systems for US clients and enterprise-ready platforms like <strong>Rapid Bot</strong> and a <strong>Chatbot in Minutes</strong> product. 
+            Skilled in automating workflows, API integration, Power BI analytics, and scalable deployment on AWS/GCP.
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title">💼 Experience</h2>
+
+          <div class="experience-item">
+            <h3>Full Stack AI Developer</h3>
+            <div class="company">Freelance / Client Projects</div>
+            <div class="duration">2022 - Present</div>
+            <p>Developed advanced AI-integrated platforms, semantic search chatbots, and cloud-native dashboards.</p>
+            <ul>
+              <li>Built multi-role AI project management tool with PDF ingestion, Gemini, and Qdrant</li>
+              <li>Developed chatbot that scrapes websites/PDFs, stores content in vector DB, and answers queries</li>
+              <li>Integrated Power BI and LLMs to generate dashboards from natural language + SQL</li>
+              <li>Worked with US-based clients on scalable SaaS products</li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <h3>Web Development Intern</h3>
+            <div class="company">The Baap Company</div>
+            <div class="duration">July 2023</div>
+            <p>Supported full-stack development tasks for client websites and internal tools.</p>
+            <ul>
+              <li>Assisted in frontend development using HTML, CSS, JS</li>
+              <li>Helped design relational DBs and write SQL queries</li>
+              <li>Improved deployment pipelines and debugging processes</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title">🎓 Education</h2>
+
+          <div class="education-item">
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <div class="institution">Mysore University, Mysore</div>
+            <div class="duration">July 2023</div>
+            <p>Focused on web technologies, algorithms, and database design. Graduated with distinction.</p>
+          </div>
+
+          <div class="education-item">
+            <h3>Advanced Web & AI Development Certification</h3>
+            <div class="institution">Online Learning Platforms (Udemy, Google Cloud)</div>
+            <div class="duration">July 2023</div>
+            <p>Trained in FastAPI, LLMs (Gemini, OpenAI), cloud hosting, vector DBs, and production-level DevOps.</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title">🛠️ Technical Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Frontend</h4>
+              <p>HTML, CSS, Tailwind, Bootstrap, React.js, TypeScript</p>
+            </div>
+            <div class="skill-category">
+              <h4>Backend</h4>
+              <p>FastAPI, Node.js, Express.js, Python, Core Java</p>
+            </div>
+            <div class="skill-category">
+              <h4>Databases</h4>
+              <p>PostgreSQL, MySQL, MongoDB, Qdrant (Vector DB)</p>
+            </div>
+            <div class="skill-category">
+              <h4>AI Tools</h4>
+              <p>Gemini API, OpenAI, LangChain, LlamaIndex, HuggingFace</p>
+            </div>
+            <div class="skill-category">
+              <h4>Visualization</h4>
+              <p>Power BI, Mermaid.js, Markdown, Google Charts</p>
+            </div>
+            <div class="skill-category">
+              <h4>Cloud & DevOps</h4>
+              <p>AWS, GCP, GitHub Actions, Docker, Vercel</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2 class="section-title">🌐 Languages</h2>
+          <div class="languages">
+            <div class="language">
+              <h4>English</h4>
+              <div class="language-bars">
+                <div class="language-bar filled"></div>
+                <div class="language-bar filled"></div>
+                <div class="language-bar filled"></div>
+                <div class="language-bar filled"></div>
+                <div class="language-bar"></div>
+              </div>
+            </div>
+            <div class="language">
+              <h4>Hindi</h4>
+              <div class="language-bars">
+                <div class="language-bar filled"></div>
+                <div class="language-bar filled"></div>
+                <div class="language-bar filled"></div>
+                <div class="language-bar filled"></div>
+                <div class="language-bar filled"></div>
+              </div>
+            </div>
+            <div class="language">
+              <h4>Marathi</h4>
+              <div class="language-bars">
+                <div class="language-bar filled"></div>
+                <div class="language-bar filled"></div>
+                <div class="language-bar filled"></div>
+                <div class="language-bar filled"></div>
+                <div class="language-bar filled"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
     </html>`;
 
       // Write content to the new window
@@ -547,11 +547,10 @@ const Resume: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Globe size={16} className="text-primary" />
-                  <a href="#" className="hover:text-primary transition-colors">portfolio.com</a>
+                  <a href="#" className="hover:text-primary transition-colors">https://saishjape.netlify.app/</a>
                 </div>
               </div>
             </motion.div>
-            
             <motion.div 
               className="md:w-3/4"
               initial={{ opacity: 0, y: 20 }}
@@ -559,17 +558,15 @@ const Resume: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <h3 className="text-2xl font-bold mb-2">Saish Jape</h3>
-              <p className="text-primary font-medium mb-4">Full Stack Developer</p>
+              <p className="text-primary font-medium mb-4">Full Stack AI Developer</p>
               <p className="text-muted-foreground mb-6">
-                Passionate and detail-oriented Full Stack Developer with expertise in building modern web applications.
-                Experienced in working with US clients and developing scalable solutions. Strong problem-solving skills
-                and a quick learner who thrives in collaborative environments.
+                Skilled Full Stack AI Developer with hands-on experience in developing intelligent applications powered by LLMs, vector databases, and semantic search. Specialized in building chatbot systems, AI dashboards, and automation tools using FastAPI, Gemini, Qdrant, React, and cloud platforms. Proven ability to deliver scalable, production-ready solutions for US clients and startups. Portfolio: <a href="https://saishjape.netlify.app" className="underline text-blue-600" target="_blank">saishjape.netlify.app</a>
               </p>
-              
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <h4 className="font-medium text-primary mb-1">Email:</h4>
-                  <p>saishjape05@gmail.com</p>
+                  <p>saishjape04@gmail.com</p>
                 </div>
                 <div>
                   <h4 className="font-medium text-primary mb-1">Phone:</h4>
@@ -577,119 +574,117 @@ const Resume: React.FC = () => {
                 </div>
               </div>
             </motion.div>
-          </div>
-          
-          <motion.div 
-            className="mb-12"
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5 }}
-          >
-            <div className="flex items-center gap-3 mb-6">
-              <GraduationCap className="text-primary" size={24} />
-              <h3 className="text-xl font-bold">Education</h3>
             </div>
-            
-            <div className="space-y-6">
-              <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
-                <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
-                <h4 className="font-bold text-lg">Bachelor of Computer Applications (BCA)</h4>
-                <p className="text-primary">Mysore University, Mysore</p>
-                <p className="text-sm text-muted-foreground">2018 - 2021</p>
-                <p className="mt-2">Focused on computer science fundamentals, programming languages, web technologies, and database management. Graduated with distinction.</p>
+
+            <motion.div 
+              className="mb-12"
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <GraduationCap className="text-primary" size={24} />
+                <h3 className="text-xl font-bold">Education</h3>
               </div>
-              
-              <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
-                <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
-                <h4 className="font-bold text-lg">Advanced Web Development Certification</h4>
-                <p className="text-primary">Online Learning Platform</p>
-                <p className="text-sm text-muted-foreground">2021</p>
-                <p className="mt-2">Completed comprehensive training in modern web development technologies and best practices.</p>
+
+              <div className="space-y-6">
+                <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
+                  <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
+                  <h4 className="font-bold text-lg">Bachelor of Computer Applications (BCA)</h4>
+                  <p className="text-primary">Mysore University, Mysore</p>
+                  <p className="text-sm text-muted-foreground">July 2023</p>
+                  <p className="mt-2">Learned computer science fundamentals, software development, web technologies, and databases. Graduated with distinction.</p>
+                </div>
+
+                <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
+                  <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
+                  <h4 className="font-bold text-lg">Advanced Web & AI Development</h4>
+                  <p className="text-primary">Google Cloud, Udemy, Self-paced and The Baap Company</p>
+                  <p className="text-sm text-muted-foreground">2023 started</p>
+                  <p className="mt-2">Trained in building full-stack AI products using FastAPI, Gemini, OpenAI, Qdrant, and cloud deployments. Focused on hands-on LLM integration and chatbot systems.</p>
+                </div>
               </div>
-            </div>
-          </motion.div>
-          
-          <motion.div 
-            className="mb-12"
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            <div className="flex items-center gap-3 mb-6">
-              <Briefcase className="text-primary" size={24} />
-              <h3 className="text-xl font-bold">Experience</h3>
-            </div>
-            
-            <div className="space-y-6">
-              <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
-                <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
-                <h4 className="font-bold text-lg">Full Stack Developer</h4>
-                <p className="text-primary">Freelance - US Clients</p>
-                <p className="text-sm text-muted-foreground">2022 - Present</p>
-                <p className="mt-2">Developed and maintained websites for US-based clients using modern technologies like React, Node.js, and AWS.</p>
-                <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
-                  <li>Built responsive web applications with React, TypeScript and modern CSS frameworks</li>
-                  <li>Implemented backend solutions using Node.js, Fastify, and RESTful APIs</li>
-                  <li>Deployed and maintained applications on AWS cloud infrastructure</li>
-                  <li>Collaborated with cross-functional teams in different time zones</li>
-                </ul>
+            </motion.div>
+
+            <motion.div 
+              className="mb-12"
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <Briefcase className="text-primary" size={24} />
+                <h3 className="text-xl font-bold">Experience</h3>
               </div>
-              
-              <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
-                <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
-                <h4 className="font-bold text-lg">Web Development Intern</h4>
-                <p className="text-primary">The Baap Company</p>
-                <p className="text-sm text-muted-foreground">2021 - 2022</p>
-                <p className="mt-2">Completed an internship focused on full-stack web development and client projects.</p>
-                <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
-                  <li>Assisted in developing user interfaces using HTML, CSS, and JavaScript</li>
-                  <li>Worked on database design and implementation using SQL and MongoDB</li>
-                  <li>Contributed to team projects and learned industry best practices</li>
-                  <li>Gained experience in version control and collaborative development</li>
-                </ul>
+
+              <div className="space-y-6">
+                <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
+                  <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
+                  <h4 className="font-bold text-lg">Full Stack AI Developer</h4>
+                  <p className="text-primary">Freelance</p>
+                  <p className="text-sm text-muted-foreground">2025 - Present</p>
+                  <p className="mt-2">Developed end-to-end AI platforms including LLM-powered chatbot systems, vector-based semantic search engines, and intelligent dashboards.</p>
+                  <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
+                    <li>Built Rapid Bot – Chatbot builder using Gemini, Qdrant, and FastAPI with embeddable iframe</li>
+                    <li>Created a Power BI generation platform using natural language SQL conversion via Gemini</li>
+                    <li>Scraped web content & PDFs and enabled vector-based question answering</li>
+                    <li>Integrated user authentication, dynamic role-based UIs, and chatbot personalization</li>
+                  </ul>
+                </div>
+
+                <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
+                  <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
+                  <h4 className="font-bold text-lg">Web Development Intern</h4>
+                  <p className="text-primary">The Baap Company</p>
+                  <p className="text-sm text-muted-foreground">2023</p>
+                  <p className="mt-2">Assisted in developing and maintaining client websites and internal dashboards.</p>
+                  <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
+                    <li>Helped design and test responsive UIs using HTML, CSS, JS</li>
+                    <li>Worked with SQL/MongoDB for back-office systems</li>
+                    <li>Participated in debugging and staging deployments</li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          </motion.div>
-          
-          <motion.div 
-            className="mb-12"
-            initial={{ opacity: 0, y: 20 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.3 }}
-          >
-            <div className="flex items-center gap-3 mb-6">
-              <Award className="text-primary" size={24} />
-              <h3 className="text-xl font-bold">Skills</h3>
-            </div>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-              <div className="glass-card p-4 rounded-lg bg-secondary/50">
-                <h4 className="font-medium mb-2">Frontend</h4>
-                <p className="text-sm text-muted-foreground">HTML, CSS, Bootstrap, React.js, TypeScript</p>
+            </motion.div>
+
+            <motion.div 
+              className="mb-12"
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.5, delay: 0.3 }}
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <Award className="text-primary" size={24} />
+                <h3 className="text-xl font-bold">Skills</h3>
               </div>
-              <div className="glass-card p-4 rounded-lg bg-secondary/50">
-                <h4 className="font-medium mb-2">Backend</h4>
-                <p className="text-sm text-muted-foreground">Node.js, Express.js, Fastify.js, Python, Core Java</p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="glass-card p-4 rounded-lg bg-secondary/50">
+                  <h4 className="font-medium mb-2">Frontend</h4>
+                  <p className="text-sm text-muted-foreground">HTML, CSS, Tailwind, React.js, TypeScript</p>
+                </div>
+                <div className="glass-card p-4 rounded-lg bg-secondary/50">
+                  <h4 className="font-medium mb-2">Backend</h4>
+                  <p className="text-sm text-muted-foreground">FastAPI, Node.js, Express.js, Python, Java</p>
+                </div>
+                <div className="glass-card p-4 rounded-lg bg-secondary/50">
+                  <h4 className="font-medium mb-2">Databases</h4>
+                  <p className="text-sm text-muted-foreground">PostgreSQL, MySQL, MongoDB, Qdrant</p>
+                </div>
+                <div className="glass-card p-4 rounded-lg bg-secondary/50">
+                  <h4 className="font-medium mb-2">AI Tools</h4>
+                  <p className="text-sm text-muted-foreground">Gemini API, OpenAI, LangChain, LlamaIndex</p>
+                </div>
+                <div className="glass-card p-4 rounded-lg bg-secondary/50">
+                  <h4 className="font-medium mb-2">Cloud & DevOps</h4>
+                  <p className="text-sm text-muted-foreground">AWS, GCP, Vercel, Docker, GitHub Actions</p>
+                </div>
+                <div className="glass-card p-4 rounded-lg bg-secondary/50">
+                  <h4 className="font-medium mb-2">Soft Skills</h4>
+                  <p className="text-sm text-muted-foreground">Problem Solving, Creativity, Teamwork, Communication</p>
+                </div>
               </div>
-              <div className="glass-card p-4 rounded-lg bg-secondary/50">
-                <h4 className="font-medium mb-2">Database</h4>
-                <p className="text-sm text-muted-foreground">MySQL, SQL, MongoDB</p>
-              </div>
-              <div className="glass-card p-4 rounded-lg bg-secondary/50">
-                <h4 className="font-medium mb-2">Cloud & DevOps</h4>
-                <p className="text-sm text-muted-foreground">AWS, Git, GitHub, Deployment</p>
-              </div>
-              <div className="glass-card p-4 rounded-lg bg-secondary/50">
-                <h4 className="font-medium mb-2">Tools</h4>
-                <p className="text-sm text-muted-foreground">VS Code, Figma, Command Line</p>
-              </div>
-              <div className="glass-card p-4 rounded-lg bg-secondary/50">
-                <h4 className="font-medium mb-2">Soft Skills</h4>
-                <p className="text-sm text-muted-foreground">Problem Solving, Team Collaboration, Time Management</p>
-              </div>
-            </div>
-          </motion.div>
-          
+            </motion.div>
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}

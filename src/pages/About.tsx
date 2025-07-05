@@ -1,4 +1,3 @@
-
 import React from "react";
 import MainLayout from "@/layouts/MainLayout";
 import { motion } from "framer-motion";
@@ -41,7 +40,7 @@ const About = () => {
                     <span className="text-primary">
                       <Globe size={16} />
                     </span>
-                    <span>saishjape@example.com</span>
+                    <span>saishjape04@example.com</span>
                   </li>
                   <li className="flex items-center gap-2 text-sm">
                     <span className="text-primary">
@@ -64,15 +63,19 @@ const About = () => {
                   <div className="bg-primary/10 p-2 rounded-full">
                     <Code className="text-primary" size={20} />
                   </div>
-                  <h2 className="text-xl font-bold">Web Developer</h2>
+                  <h2 className="text-xl font-bold">Full Stack Developer & AI Enthusiast</h2>
                 </div>
                 
                 <p className="text-muted-foreground mb-4">
-                  Hello! I'm Saish Jape, a passionate web developer from Shirdi, Maharashtra. I specialize in building responsive, user-friendly websites and applications using modern technologies.
+                  Hello! I'm Saish Jape, a passionate full stack developer from Shirdi, Maharashtra. I specialize in building responsive, scalable, and intelligent web applications that combine traditional full stack development with cutting-edge AI technologies.
                 </p>
                 
-                <p className="text-muted-foreground">
-                  With expertise in both frontend and backend development, I enjoy creating seamless digital experiences that solve real-world problems. I'm constantly learning and expanding my skillset to stay up-to-date with the latest trends and technologies in web development.
+                <p className="text-muted-foreground mb-4">
+                  I began my backend journey during my internship at <strong>The Baap Company</strong>, where I contributed to backend systems using <strong>Node.js</strong>, <strong>Fastify.ts</strong>, and modern backend architectures.
+                </p>
+
+                <p className="text-muted-foreground"> 
+                  My work increasingly revolves around Artificial Intelligence. I’ve integrated advanced tools like <strong>Gemini API</strong>, <strong>LangChain</strong>, <strong>Qdrant</strong>, <strong>Chroma</strong>, <strong>FAISS</strong>, <strong>LlamaIndex</strong>, <strong>Pinecone</strong>, <strong>OpenAI</strong>, and <strong>Hugging Face Transformers</strong>. These power smart chatbots, semantic search systems, document intelligence tools, and more.
                 </p>
               </div>
               
@@ -85,11 +88,15 @@ const About = () => {
                 </div>
                 
                 <p className="text-muted-foreground mb-4">
-                  I hold a Bachelor of Computer Applications (BCA) degree from Mysore University, where I developed a strong foundation in computer science and programming. Throughout my academic journey, I focused on practical learning and hands-on project development.
+                  I'm currently pursuing a Bachelor of Computer Applications (BCA) from Mysore University. My academic learning is strengthened by real-world experience through internships and freelance roles.
+                </p>
+                
+                <p className="text-muted-foreground mb-4">
+                  At <strong>The Baap Company</strong>, I was trained on full-stack development, LLM-based integrations, cloud APIs, and chatbot architecture. I’ve worked on RESTful APIs, JWT authentication, AI agents, and real-time dashboard systems.
                 </p>
                 
                 <p className="text-muted-foreground">
-                  After completing my education, I've worked on several freelance projects, enhancing my skills in HTML, CSS, Bootstrap, React.js, Node.js, and database management with MySQL and MongoDB. Each project has been an opportunity to refine my technical abilities and problem-solving skills.
+                  I also served as a Backend Developer for <strong>Simplify VMS</strong>, initially starting as a Shadow Developer. Over time, I took full charge of their Timesheet Module—solving production bugs and building APIs for employee logs, holiday calendars, weekly/monthly delays, work hour tracking, and payroll logic.
                 </p>
               </div>
             </motion.div>

@@ -34,7 +34,9 @@ const skillCategories = [
     skills: [
       { name: "MySQL", level: 85 },
       { name: "SQL", level: 88 },
-      { name: "MongoDB", level: 80 },
+      { name: "MongoDB", level: 60 },
+      { name: "PostgreSQL", level: 70 },
+      { name: "Qdrant", level: 65 },
     ]
   },
   {
@@ -45,6 +47,7 @@ const skillCategories = [
       { name: "AWS", level: 75 },
       { name: "Problem Solving", level: 88 },
       { name: "System Design", level: 75 },
+      { name: "Docker", level: 50 },
     ]
   },
   {

@@ -1,4 +1,3 @@
-
 import React from "react";
 import { motion } from "framer-motion";
 import { Award, Code, Eye, Server } from "lucide-react";
@@ -7,8 +6,8 @@ const ProfileSection: React.FC = () => {
   const stats = [
     { icon: <Code className="text-primary w-6 h-6" />, value: "2+", label: "Years Experience" },
     { icon: <Server className="text-primary w-6 h-6" />, value: "10+", label: "Projects Completed" },
-    { icon: <Eye className="text-primary w-6 h-6" />, value: "5+", label: "US Clients" },
-    { icon: <Award className="text-primary w-6 h-6" />, value: "BCA", label: "Degree" }
+    { icon: <Eye className="text-primary w-6 h-6" />, value: "1+", label: "AI Tools Built" },
+    { icon: <Award className="text-primary w-6 h-6" />, value: "BCA", label: "Pursuing Degree" }
   ];
 
   return (
@@ -33,21 +32,15 @@ const ProfileSection: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <p className="text-lg mb-4">
-              I'm a passionate <span className="gradient-text font-semibold">Full Stack Developer</span> with expertise 
-              in building modern web applications using cutting-edge technologies. My journey in 
-              tech started with my BCA degree from Mysore University, and since then I've been 
-              continuously expanding my skill set.
+              I'm a passionate <span className="gradient-text font-semibold">Full Stack Developer</span> with a strong foundation in building modern web applications. My journey started with a <span className="font-semibold">BCA degree</span> from Mysore University (currently pursuing), and I’ve been continuously growing in both backend development and emerging areas like <span className="text-primary font-semibold">Artificial Intelligence</span>.
             </p>
-            
+
             <p className="text-lg mb-4">
-              I've had the privilege of working with US-based clients, developing responsive web 
-              applications and complex backend systems. My experience includes working at "The Baap Company" 
-              as an intern, where I contributed to real-world projects and honed my skills in a 
-              professional environment.
+              Currently, I’m interning at <span className="text-primary font-semibold">The BAAP Company</span>, where I contribute to real-world, production-grade projects. I enjoy building scalable, efficient, and user-centric web solutions that blend robust backend functionality with seamless user experiences.
             </p>
-            
-            <p className="text-lg">
-              My technical expertise spans across <span className="text-primary font-semibold">React.js</span>, <span className="text-primary font-semibold">Node.js</span>, <span className="text-primary font-semibold">Fastify.js</span>, <span className="text-primary font-semibold">AWS</span>, <span className="text-primary font-semibold">TypeScript</span>, <span className="text-primary font-semibold">Python</span>, <span className="text-primary font-semibold">Core Java</span>, and database technologies like <span className="text-primary font-semibold">MongoDB</span> and <span className="text-primary font-semibold">MySQL</span>. I'm passionate about creating clean, efficient, and scalable code.
+
+            <p className="text-lg mb-4">
+              I'm especially interested in the intersection of web development and AI, and I’ve worked on projects involving intelligent systems, automation, and enhanced search experiences driven by large language models.
             </p>
           </motion.div>
           
