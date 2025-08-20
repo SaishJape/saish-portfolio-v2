@@ -122,7 +122,7 @@ const Hero: React.FC = () => {
         <div className="relative w-full aspect-square rounded-xl overflow-hidden shadow-2xl gradient-border">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent mix-blend-overlay"/>
           <img 
-            src="./herophoto.jpg" 
+            src="./saishjapephotosmall.jpg" 
             alt="Saish Jape" 
             className="w-full h-full object-cover"
           />
