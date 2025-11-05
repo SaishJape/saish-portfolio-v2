@@ -40,7 +40,7 @@ const About = () => {
                     <span className="text-primary">
                       <Globe size={16} />
                     </span>
-                    <span>saishjape04@example.com</span>
+                    <span>saishjape04@gmail.com</span>
                   </li>
                   <li className="flex items-center gap-2 text-sm">
                     <span className="text-primary">
