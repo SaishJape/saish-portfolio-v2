@@ -11,7 +11,7 @@ const Resume: React.FC = () => {
     // Create a link element
     const link = document.createElement('a');
     // Point to the resume image file in the assets directory
-    link.href = '/assets/saish jape resume docs image.png';
+    link.href = '/public/saish jape resume docs image.png';
     link.download = 'Saish_Jape_Resume.png'; // This will be the downloaded filename
     // Trigger the download
     document.body.appendChild(link);
