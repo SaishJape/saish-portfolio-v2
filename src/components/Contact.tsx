@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
+import emailjs from "@emailjs/browser";
+import { toast } from "sonner";
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -21,18 +23,42 @@ const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
+
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+    if (!serviceId || !templateId || !publicKey) {
+      toast.error("EmailJS configuration is missing. Please check your .env file.");
       setIsSubmitting(false);
-      setIsSubmitted(true);
-      setFormData({ name: "", email: "", subject: "", message: "" });
-      
-      // Reset success message after 5 seconds
-      setTimeout(() => {
-        setIsSubmitted(false);
-      }, 5000);
-    }, 1500);
+      return;
+    }
+
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    };
+
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+        setIsSubmitting(false);
+        setIsSubmitted(true);
+        setFormData({ name: "", email: "", subject: "", message: "" });
+        toast.success("Message sent successfully!");
+
+        // Reset success message after 5 seconds
+        setTimeout(() => {
+          setIsSubmitted(false);
+        }, 5000);
+      })
+      .catch((err) => {
+        console.error("FAILED...", err);
+        setIsSubmitting(false);
+        toast.error("Failed to send message. Please try again later.");
+      });
   };
 
   const contactInfo = [
@@ -58,7 +84,7 @@ const Contact: React.FC = () => {
 
   return (
     <section className="py-16" id="contact">
-      <motion.h2 
+      <motion.h2
         className="section-title"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -67,13 +93,13 @@ const Contact: React.FC = () => {
       >
         Contact Me
       </motion.h2>
-      
+
       <p className="text-muted-foreground mb-12 max-w-2xl">
         Feel free to reach out for collaborations, opportunities, or just to say hello!
       </p>
-      
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
-        <motion.div 
+        <motion.div
           className="lg:col-span-2"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -82,9 +108,9 @@ const Contact: React.FC = () => {
         >
           <div className="glass-card p-8 rounded-lg">
             <h3 className="text-xl font-bold mb-6">Send a Message</h3>
-            
+
             {isSubmitted ? (
-              <motion.div 
+              <motion.div
                 className="bg-green-50 border border-green-200 text-green-800 rounded-lg p-4 flex items-center gap-3"
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -123,7 +149,7 @@ const Contact: React.FC = () => {
                     />
                   </div>
                 </div>
-                
+
                 <div>
                   <label className="block mb-2 text-sm font-medium">Subject</label>
                   <input
@@ -136,7 +162,7 @@ const Contact: React.FC = () => {
                     placeholder="Subject of your message"
                   />
                 </div>
-                
+
                 <div>
                   <label className="block mb-2 text-sm font-medium">Message</label>
                   <textarea
@@ -149,7 +175,7 @@ const Contact: React.FC = () => {
                     placeholder="Your message"
                   />
                 </div>
-                
+
                 <button
                   type="submit"
                   disabled={isSubmitting}
@@ -173,8 +199,8 @@ const Contact: React.FC = () => {
             )}
           </div>
         </motion.div>
-        
-        <motion.div 
+
+        <motion.div
           className="space-y-6"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -182,9 +208,9 @@ const Contact: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           {contactInfo.map((item, index) => (
-            <a 
-              href={item.link} 
-              target="_blank" 
+            <a
+              href={item.link}
+              target="_blank"
               rel="noopener noreferrer"
               key={index}
               className="glass-card p-6 rounded-lg flex items-start gap-4 group hover:bg-primary/5 transition-colors duration-300 block"
