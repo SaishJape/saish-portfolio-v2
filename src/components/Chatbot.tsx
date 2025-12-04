@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 // Initialize Gemini API
 // NOTE: In a production environment, this key should be in an environment variable
 // and ideally calls should go through a backend proxy to hide the key.
-const API_KEY = "AIzaSyAware4l1_X8CxCTqv3ZrZj9ASOI1McDgI";
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || "AIzaSyAWmVbE1h1kLKj__ji9ZmUTjHBuEYhizgE";
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 interface Message {
