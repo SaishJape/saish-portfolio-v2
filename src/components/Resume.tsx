@@ -68,7 +68,7 @@ const Resume: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Globe size={16} className="text-primary" />
-                  <a href="#" className="hover:text-primary transition-colors">https://saishjape.netlify.app/</a>
+                  <a href="#" className="hover:text-primary transition-colors">https://saishjape.me</a>
                 </div>
               </div>
             </motion.div>
@@ -81,7 +81,7 @@ const Resume: React.FC = () => {
               <h3 className="text-2xl font-bold mb-2">Saish Jape</h3>
               <p className="text-primary font-medium mb-4">Full Stack AI Developer</p>
               <p className="text-muted-foreground mb-6">
-                Skilled Full Stack AI Developer with hands-on experience in developing intelligent applications powered by LLMs, vector databases, and semantic search. Specialized in building chatbot systems, AI dashboards, and automation tools using FastAPI, Gemini, Qdrant, React, and cloud platforms. Proven ability to deliver scalable, production-ready solutions for US clients and startups. Portfolio: <a href="https://saishjape.netlify.app" className="underline text-blue-600" target="_blank">saishjape.netlify.app</a>
+                Skilled Full Stack AI Developer with hands-on experience in developing intelligent applications powered by LLMs, vector databases, and semantic search. Specialized in building chatbot systems, AI dashboards, and automation tools using FastAPI, Gemini, Qdrant, React, and cloud platforms. Proven ability to deliver scalable, production-ready solutions for US clients and startups. Portfolio: <a href="https://saishjape.me" className="underline text-blue-600" target="_blank">https://saishjape.me</a>
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -142,7 +142,7 @@ const Resume: React.FC = () => {
                 <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
                   <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
                   <h4 className="font-bold text-lg">Full Stack AI Developer</h4>
-                  <p className="text-primary">Freelance</p>
+                  <p className="text-primary">At The Baap Company</p>
                   <p className="text-sm text-muted-foreground">2025 - Present</p>
                   <p className="mt-2">Developed end-to-end AI platforms including LLM-powered chatbot systems, vector-based semantic search engines, and intelligent dashboards.</p>
                   <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">

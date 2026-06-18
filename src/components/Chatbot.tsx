@@ -31,7 +31,7 @@ Here is Saish's information:
 - Role: Full Stack AI Developer
 - Location: Shirdi, Maharashtra, India
 - Contact: saishjape04@gmail.com | +91 8208507318
-- Portfolio: https://saishjape.netlify.app
+- Portfolio: https://saishjape.me
 
 **Summary:**
 Skilled Full Stack AI Developer with hands-on experience in developing intelligent applications powered by LLMs, vector databases, and semantic search. Specialized in building chatbot systems, AI dashboards, and automation tools using FastAPI, Gemini, Qdrant, React, and cloud platforms. Proven ability to deliver scalable, production-ready solutions.

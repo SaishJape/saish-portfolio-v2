@@ -60,8 +60,16 @@ const Hero: React.FC = () => {
           transition={{ delay: 0.4, duration: 0.5 }}
         >
         A passionate Full Stack Developer from Shirdi, with a strong focus on backend development and
-        AI integration. Currently pursuing a BCA degree from Mysore University and interning at BAAP Company, 
-        where I’m gaining real-world experience by building scalable and production-ready applications.
+        AI integration. Currently pursuing a BCA degree from Mysore University and interning at{" "}
+        <a 
+          href="https://baapcompany.com/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-primary hover:underline font-semibold"
+        >
+          BAAP Company
+        </a>
+        , where I’m gaining real-world experience by building scalable and production-ready applications.
         </motion.p>
         
         <motion.div 
