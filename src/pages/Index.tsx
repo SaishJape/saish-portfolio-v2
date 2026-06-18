@@ -8,6 +8,7 @@ import Experience from "@/components/Experience";
 import ProfileSection from "@/components/ProfileSection";
 import ServicesOffered from "@/components/ServicesOffered";
 import Testimonials from "@/components/Testimonials";
+import Projects from "@/components/Projects";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Hero />
       <ProfileSection />
       <Experience />
+      <Projects isFeaturedOnly={true} />
       <Skills />
       <ServicesOffered />
       <Education />

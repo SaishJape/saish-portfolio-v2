@@ -81,6 +81,9 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
                   <a href="/about" className="fancy-underline text-muted-foreground hover:text-primary transition-colors">About</a>
                 </li>
                 <li>
+                  <a href="/projects" className="fancy-underline text-muted-foreground hover:text-primary transition-colors">Projects</a>
+                </li>
+                <li>
                   <a href="/skills" className="fancy-underline text-muted-foreground hover:text-primary transition-colors">Skills</a>
                 </li>
                 <li>

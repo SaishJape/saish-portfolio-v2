@@ -13,8 +13,8 @@ const experienceData = [
       "Contributed to real-world production projects focused on modern web development and AI integration. Worked with React, Node.js, and MongoDB to build scalable apps. Gained hands-on experience in deploying LLM-based features like AI chatbots and semantic search using Gemini API, LangChain, and Qdrant."
   },
   {
-    position: "Freelance Web Developer",
-    company: "The Baap Company and Online",
+    position: "Web Developer",
+    company: "The Baap Company",
     location: "Remote",
     period: "July 2023",
     description:
@@ -22,7 +22,7 @@ const experienceData = [
   },
   {
     position: "AI Developer",
-    company: "Independent Projects",
+    company: "At The Baap Company",
     location: "Remote",
     period: "2025 - Present",
     description:
@@ -30,7 +30,7 @@ const experienceData = [
   },
   {
     position: "Backend Developer",
-    company: "Freelance & BAAP Company",
+    company: "AT The BAAP Company",
     location: "Remote",
     period: "2024 - Present",
     description:
@@ -93,7 +93,20 @@ const ExperienceItem: React.FC<(typeof experienceData)[0] & { index: number }> =
           </div>
           <div>
             <h3 className="font-bold text-lg">{position}</h3>
-            <p className="text-primary font-medium">{company}</p>
+            <p className="text-primary font-medium">
+              {company.toLowerCase().includes("baap") ? (
+                <a 
+                  href="https://baapcompany.com/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:underline font-semibold"
+                >
+                  {company}
+                </a>
+              ) : (
+                company
+              )}
+            </p>
             <p className="text-sm text-muted-foreground">{location}</p>
             <div className="flex items-center gap-1 text-sm text-muted-foreground mt-1">
               <Calendar size={14} />

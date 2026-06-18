@@ -31,12 +31,21 @@ const ProfileSection: React.FC = () => {
             viewport={{ once: true, margin: "-100px 0px" }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <p className="text-lg mb-4">
+             <p className="text-lg mb-4">
               I'm a passionate <span className="gradient-text font-semibold">Full Stack Developer</span> with a strong foundation in building modern web applications. My journey started with a <span className="font-semibold">BCA degree</span> from Mysore University (currently pursuing), and I’ve been continuously growing in both backend development and emerging areas like <span className="text-primary font-semibold">Artificial Intelligence</span>.
             </p>
 
             <p className="text-lg mb-4">
-              Currently, I’m interning at <span className="text-primary font-semibold">The BAAP Company</span>, where I contribute to real-world, production-grade projects. I enjoy building scalable, efficient, and user-centric web solutions that blend robust backend functionality with seamless user experiences.
+              Currently, I’m interning at{" "}
+              <a 
+                href="https://baapcompany.com/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-primary hover:underline font-semibold"
+              >
+                The BAAP Company
+              </a>
+              , where I contribute to real-world, production-grade projects. I enjoy building scalable, efficient, and user-centric web solutions that blend robust backend functionality with seamless user experiences.
             </p>
 
             <p className="text-lg mb-4">
