@@ -27,7 +27,7 @@ const About = () => {
             >
               <div className="rounded-lg overflow-hidden shadow-lg border-4 border-white">
                 <img 
-                  src="./saish_jape.jpeg" 
+                  src="./saish jape a formal blazer outfit.png" 
                   alt="Saish Jape" 
                   className="w-full h-auto"
                 />
@@ -40,7 +40,7 @@ const About = () => {
                     <span className="text-primary">
                       <Globe size={16} />
                     </span>
-                    <span>saishjape04@gmail.com</span>
+                    <span>japesaish@gmail.com</span>
                   </li>
                   <li className="flex items-center gap-2 text-sm">
                     <span className="text-primary">
@@ -71,7 +71,7 @@ const About = () => {
                 </p>
                 
                 <p className="text-muted-foreground mb-4">
-                  I began my backend journey during my internship at <strong>The Baap Company</strong>, where I contributed to backend systems using <strong>Node.js</strong>, <strong>Fastify.ts</strong>, and modern backend architectures.
+                  I began my backend journey during my internship at <strong>The BAAP (Business Application and Platform) Company</strong>, where I contributed to backend systems using <strong>Node.js</strong>, <strong>Fastify.ts</strong>, and modern backend architectures.
                 </p>
 
                 <p className="text-muted-foreground"> 
@@ -92,7 +92,7 @@ const About = () => {
                 </p>
                 
                 <p className="text-muted-foreground mb-4">
-                  At <strong>The Baap Company</strong>, I was trained on full-stack development, LLM-based integrations, cloud APIs, and chatbot architecture. I’ve worked on RESTful APIs, JWT authentication, AI agents, and real-time dashboard systems.
+                  At <strong>The BAAP (Business Application and Platform) Company</strong>, I was trained on full-stack development, LLM-based integrations, cloud APIs, and chatbot architecture. I’ve worked on RESTful APIs, JWT authentication, AI agents, and real-time dashboard systems.
                 </p>
                 
                 <p className="text-muted-foreground">

@@ -6,32 +6,32 @@ import { useRef } from "react";
 const experienceData = [
   {
     position: "Full Stack Developer Intern",
-    company: "The Baap Company",
-    location: "Remote",
+    company: "The BAAP (Business Application and Platform) Company",
+    location: "On-site",
     period: "July 2023",
     description:
       "Contributed to real-world production projects focused on modern web development and AI integration. Worked with React, Node.js, and MongoDB to build scalable apps. Gained hands-on experience in deploying LLM-based features like AI chatbots and semantic search using Gemini API, LangChain, and Qdrant."
   },
   {
     position: "Web Developer",
-    company: "The Baap Company",
-    location: "Remote",
+    company: "The BAAP (Business Application and Platform) Company",
+    location: "On-site",
     period: "July 2023",
     description:
       "Worked on independent web development projects for startups and individuals. Built full-stack applications using React, TypeScript, Fastify.js, and AWS. Recently focused on integrating AI tools into web platforms—such as chatbots, content extraction systems, and intelligent dashboards."
   },
   {
     position: "AI Developer",
-    company: "At The Baap Company",
-    location: "Remote",
+    company: "At The BAAP (Business Application and Platform) Company",
+    location: "On-site",
     period: "2025 - Present",
     description:
       "Developed AI-powered tools including custom LLM-based chatbots, semantic search engines, and document intelligence systems. Leveraged technologies like Gemini API, LangChain, and Qdrant to create smart features for real-time interaction, data summarization, and query answering."
   },
   {
     position: "Backend Developer",
-    company: "AT The BAAP Company",
-    location: "Remote",
+    company: "AT The BAAP (Business Application and Platform) Company",
+    location: "On-site",
     period: "2024 - Present",
     description:
       "Designed and built scalable backend systems with clean architecture and RESTful APIs. Worked extensively on authentication, file processing, database design, and API optimization—primarily using Fastify.js, PostgreSQL, and cloud deployment platforms."
@@ -39,7 +39,7 @@ const experienceData = [
   {
     position: "Backend Developer (Shadow to Production)",
     company: "Simplify VMS",
-    location: "Remote",
+    location: "On-site",
     period: "2023 - 2024",
     description:
       "Started as a shadow developer, learning backend architecture and resolving minor bugs. Progressed to handling production issues including ticket fixes, and eventually authored core backend APIs. Worked on the Timesheet Module, managing employee work logs, breaks, holidays, delays, and time calculations across weekly and monthly cycles."

@@ -55,7 +55,7 @@ const Resume: React.FC = () => {
             >
               <div className="rounded-lg overflow-hidden border-4 border-primary/20 shadow-lg mb-4">
                 <img 
-                  src="./herophoto.jpg" 
+                  src="./saish jape a formal blazer outfit.png" 
                   alt="Saish Jape" 
                   className="w-full h-auto"
                 />
@@ -87,11 +87,11 @@ const Resume: React.FC = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <h4 className="font-medium text-primary mb-1">Email:</h4>
-                  <p>saishjape04@gmail.com</p>
+                  <p>japesaish@gmail.com</p>
                 </div>
                 <div>
                   <h4 className="font-medium text-primary mb-1">Phone:</h4>
-                  <p>+91 8208507318</p>
+                  <p>+91 8308636214</p>
                 </div>
               </div>
             </motion.div>
@@ -120,7 +120,7 @@ const Resume: React.FC = () => {
                 <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
                   <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
                   <h4 className="font-bold text-lg">Advanced Web & AI Development</h4>
-                  <p className="text-primary">Google Cloud, Udemy, Self-paced and The Baap Company</p>
+                  <p className="text-primary">Google Cloud, Udemy, Self-paced and The BAAP (Business Application and Platform) Company</p>
                   <p className="text-sm text-muted-foreground">2023 started</p>
                   <p className="mt-2">Trained in building full-stack AI products using FastAPI, Gemini, OpenAI, Qdrant, and cloud deployments. Focused on hands-on LLM integration and chatbot systems.</p>
                 </div>
@@ -142,7 +142,7 @@ const Resume: React.FC = () => {
                 <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
                   <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
                   <h4 className="font-bold text-lg">Full Stack AI Developer</h4>
-                  <p className="text-primary">At The Baap Company</p>
+                  <p className="text-primary">At The BAAP (Business Application and Platform) Company</p>
                   <p className="text-sm text-muted-foreground">2025 - Present</p>
                   <p className="mt-2">Developed end-to-end AI platforms including LLM-powered chatbot systems, vector-based semantic search engines, and intelligent dashboards.</p>
                   <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
@@ -156,7 +156,7 @@ const Resume: React.FC = () => {
                 <div className="border-l-2 border-primary/30 pl-5 py-1 relative">
                   <div className="absolute w-3 h-3 bg-primary rounded-full -left-[7px] top-2" />
                   <h4 className="font-bold text-lg">Web Development Intern</h4>
-                  <p className="text-primary">The Baap Company</p>
+                  <p className="text-primary">The BAAP (Business Application and Platform) Company</p>
                   <p className="text-sm text-muted-foreground">2023</p>
                   <p className="mt-2">Assisted in developing and maintaining client websites and internal dashboards.</p>
                   <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">

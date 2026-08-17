@@ -61,7 +61,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
                   <Linkedin size={20} className="text-primary" />
                 </a>
                 <a 
-                  href="mailto:saishjape04@gmail.com" 
+                  href="mailto:japesaish@gmail.com" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="bg-primary/10 p-2 rounded-full hover:bg-primary/20 transition-colors hover:scale-110 transform"
@@ -104,14 +104,14 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
                 </li>
                 <li className="flex items-center gap-2 group">
                   <Mail size={18} className="text-primary group-hover:scale-110 transition-transform" />
-                  <a href="mailto:saishjape04@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
-                    saishjape04@gmail.com
+                  <a href="mailto:japesaish@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    japesaish@gmail.com
                   </a>
                 </li>
                 <li className="flex items-center gap-2 group">
                   <Phone size={18} className="text-primary group-hover:scale-110 transition-transform" />
-                  <a href="tel:+918208507318" className="text-muted-foreground hover:text-primary transition-colors">
-                    +91 8208507318
+                  <a href="tel:+918308636214" className="text-muted-foreground hover:text-primary transition-colors">
+                    +91 8308636214
                   </a>
                 </li>
               </ul>

@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
           rel="noopener noreferrer" 
           className="text-primary hover:underline font-semibold"
         >
-          BAAP Company
+          BAAP (Business Application and Platform) Company
         </a>
         , where I’m gaining real-world experience by building scalable and production-ready applications.
         </motion.p>
@@ -95,7 +95,7 @@ const Hero: React.FC = () => {
             <Linkedin size={24} className="text-primary" />
           </a>
           <a 
-            href="mailto:saishjape04@gmail.com" 
+            href="mailto:japesaish@gmail.com" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-primary/10 p-2 rounded-full hover:bg-primary/20 transition-colors duration-300 hover:scale-110 transform"
@@ -130,7 +130,7 @@ const Hero: React.FC = () => {
         <div className="relative w-full aspect-square rounded-xl overflow-hidden shadow-2xl gradient-border">
           <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent mix-blend-overlay"/>
           <img 
-            src="./saishjapephotosmall.jpg" 
+            src="./saish jape a formal blazer outfit.png" 
             alt="Saish Jape" 
             className="w-full h-full object-cover"
           />

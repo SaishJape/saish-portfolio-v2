@@ -43,7 +43,7 @@ const ProfileSection: React.FC = () => {
                 rel="noopener noreferrer" 
                 className="text-primary hover:underline font-semibold"
               >
-                The BAAP Company
+                The BAAP (Business Application and Platform) Company
               </a>
               , where I contribute to real-world, production-grade projects. I enjoy building scalable, efficient, and user-centric web solutions that blend robust backend functionality with seamless user experiences.
             </p>

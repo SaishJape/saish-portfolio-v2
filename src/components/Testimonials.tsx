@@ -6,19 +6,19 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Rao Ghuge",
-    position: "CEO, The Baap Company",
+    position: "CEO, The BAAP (Business Application and Platform) Company",
     quote: "Saish delivered exceptional work on our web application. His technical skills and attention to detail are impressive. Would highly recommend!",
     rating: 5
   },
   // {
   //   name: "Neha Padwal",
-  //   position: "Co-founder, The Baap Company",
+  //   position: "Co-founder, The BAAP (Business Application and Platform) Company",
   //   quote: "Working with Saish was a pleasure. He understood our requirements perfectly and delivered a high-quality solution on time. His communication skills are excellent.",
   //   rating: 5
   // },
   // {
   //   name: "Anjali Patel",
-  //   position: "HOD of AI, The Baap Company",
+  //   position: "HOD of AI, The BAAP (Business Application and Platform) Company",
   //   quote: "Saish's expertise in full stack development helped us build a robust and scalable application. His problem-solving skills and technical knowledge are outstanding.",
   //   rating: 4
   // }
