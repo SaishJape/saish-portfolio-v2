@@ -61,9 +61,13 @@ Skilled Full Stack AI Developer with hands-on experience in developing intellige
 - **Languages:** English, Hindi, Marathi.
 
 **Projects:**
-1. **TaskMate:** AI-powered team/task management (FastAPI, Gemini, Qdrant).
-2. **Natural Language to SQL:** Auto Dashboard Generator (FastAPI, Power BI).
-3. **Rapid Bot Builder:** Plug-and-play chatbot solution (PDF/URL ingestion).
+1. **Boardview AI:** Enterprise AI platform built using LLMs, RAG, semantic search, and agentic workflows (Python, FastAPI, Qdrant, PostgreSQL, Redis, Gemini, DeepSeek, LangChain, Docker). Link: https://boardview.me/ (Visitors should sign up to see the application).
+2. **Email Service Platform:** Enterprise-grade email management system (Node.js, TypeScript, Fastify, React.js, BullMQ, Redis, PostgreSQL, WebSockets). Link: https://boardview.me/ (Part of the Boardview ecosystem, sign up to see the application).
+3. **Voice-on-Call AI Platform:** AI-powered calling system with natural voice interaction (Gemini, FastAPI, VITS, Twilio, WebSockets). Link: https://ai-calling.baap.company/
+4. **AI-Powered WhatsApp Clone Backend:** Real-time WhatsApp clone backend engine featuring automated conversational AI agents (FastAPI, WebSockets, Gemini, PostgreSQL, Redis, Docker). Link: https://boardview.me/ (Part of the Boardview ecosystem, sign up to see the application).
+5. **TaskMate:** AI-powered team/task management (FastAPI, Gemini, Qdrant).
+6. **Natural Language to SQL:** Auto Dashboard Generator (FastAPI, Power BI).
+7. **Rapid Bot Builder:** Plug-and-play chatbot solution (PDF/URL ingestion).
 
 **Guidelines:**
 - Be helpful, polite, and concise.
