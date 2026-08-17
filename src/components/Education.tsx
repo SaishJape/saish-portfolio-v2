@@ -13,24 +13,24 @@ const educationData = [
   },
   {
     degree: "Web Development Certification",
-    institution: "The Baap Company",
-    location: "Remote",
+    institution: "The BAAP (Business Application and Platform) Company",
+    location: "On-site",
     period: "2023 – Present",
     description:
-      "Completed web development training as part of my internship at The Baap Company. Covered modern frontend and backend stacks including React.js, TypeScript, Fastify.js, and Git-based workflows."
+      "Completed web development training as part of my internship at The BAAP (Business Application and Platform) Company. Covered modern frontend and backend stacks including React.js, TypeScript, Fastify.js, and Git-based workflows."
   },
   {
     degree: "Backend Developer Training",
-    institution: "The Baap Company (Internship)",
-    location: "Remote",
+    institution: "The BAAP (Business Application and Platform) Company (Internship)",
+    location: "On-site",
     period: "2023 – Present",
     description:
       "Focused training in building robust backend systems with Node.js, Fastify.js, RESTful APIs, MySQL, and MongoDB. Hands-on experience with authentication, data modeling, and cloud integration on AWS."
   },
   {
     degree: "AI & LLM Tools Bootcamp (Project-Based Learning)",
-    institution: "Self-Learning / BAAP Projects / Online Learning Platform",
-    location: "Remote",
+    institution: "Self-Learning / BAAP (Business Application and Platform) Projects / Online Learning Platform",
+    location: "On-site",
     period: "2023 – Present",
     description:
       "Gaining hands-on experience working with Gemini API, LangChain, and Qdrant to develop intelligent AI-powered chatbots, semantic search engines, and automation tools through internships and personal projects."

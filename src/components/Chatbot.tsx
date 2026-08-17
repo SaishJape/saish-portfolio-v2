@@ -30,7 +30,7 @@ Here is Saish's information:
 - Name: Saish Jape
 - Role: Full Stack AI Developer
 - Location: Shirdi, Maharashtra, India
-- Contact: saishjape04@gmail.com | +91 8208507318
+- Contact: japesaish@gmail.com | +91 8308636214
 - Portfolio: https://saishjape.me
 
 **Summary:**
@@ -38,18 +38,18 @@ Skilled Full Stack AI Developer with hands-on experience in developing intellige
 
 **Education:**
 - Bachelor of Computer Applications (BCA) - Mysore University (July 2023) - Distinction.
-- Advanced Web & AI Development - Google Cloud, Udemy, The Baap Company (2023 - Present).
+- Advanced Web & AI Development - Google Cloud, Udemy, The BAAP (Business Application and Platform) Company (2023 - Present).
 
 **Experience:**
 1. **Full Stack AI Developer (Freelance)** (2025 - Present):
    - Built "Rapid Bot" (Chatbot builder using Gemini, Qdrant, FastAPI).
    - Created Power BI generation platform (Natural Language to SQL).
    - Scraped web/PDFs for vector-based QA.
-2. **Backend Developer (Freelance & BAAP Company)** (2024 - Present):
+2. **Backend Developer (Freelance & BAAP (Business Application and Platform) Company)** (2024 - Present):
    - Scalable backend systems using Fastify.js, PostgreSQL.
 3. **Backend Developer (Simplify VMS)** (2023 - 2024):
    - Worked on Timesheet Module, employee work logs.
-4. **Web Development Intern (The Baap Company)** (2023):
+4. **Web Development Intern (The BAAP (Business Application and Platform) Company)** (2023):
    - Responsive UIs, SQL/MongoDB, debugging.
 
 **Skills:**

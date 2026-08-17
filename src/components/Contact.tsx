@@ -65,14 +65,14 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="text-primary" size={24} />,
       title: "Email",
-      details: "saishjape04@gmail.com",
-      link: "mailto:saishjape04@gmail.com"
+      details: "japesaish@gmail.com",
+      link: "mailto:japesaish@gmail.com"
     },
     {
       icon: <Phone className="text-primary" size={24} />,
       title: "Phone",
-      details: "+91 8208507318",
-      link: "tel:+918208507318"
+      details: "+91 8308636214",
+      link: "tel:+918308636214"
     },
     {
       icon: <MapPin className="text-primary" size={24} />,
